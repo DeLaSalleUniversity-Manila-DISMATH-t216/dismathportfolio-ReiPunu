@@ -20,22 +20,22 @@ like a promise or a condition that must be fulfilled for it to be true.
 2. If P is false then Q might be true. Though the condition is not fulfilled there are factors which may lead you to 4.0 on your final grade.</br>
 3. If P is false then Q is false The condition is not fufilled and there's a possibilty that the rest of your grades do not agree with the 4.0 requirement.</br>
 4. If P is true then Q is false. The condition is fulfilled yet you didn't get a 4.0 on your final grade which is a breach in the condition made.<br>
-</br>
-  Since, I am familiar with the previous logic statements such as:</br>
+</br></br>
+  Since, I am familiar with the previous logic statements such as:</br></br>
 - Conjuction/And (p^q),
 - Disjunction/Or(pvq),
 - Negation/Not(¬p),
 - Exclusive Disjunction/XOR(p⊕q),
 - Conditional/If..then(p→q),
-- Biconditional/If and Only If(p↔q),</br>
- I found the introduction as a review from my previous learnings during my first take of DISMATH. What I found fascinating was the play of words in the statements such as the usage of sufficient in conditional, necessary and sufficient in biconditional, and p whenever q. I was also fascinated with the play of IF AND ONLY IF statements, </br>
+- Biconditional/If and Only If(p↔q),</br></br>
+ I found the introduction as a review from my previous learnings during my first take of DISMATH. What I found fascinating was the play of words in the statements such as the usage of sufficient in conditional, necessary and sufficient in biconditional, and p whenever q. I was also fascinated with the play of IF AND ONLY IF statements, </br></br>
 - *I have P if only if B* -wherein B is the condition, </br>
 - *A if B* -wherein B is the condition and finally,</br>
-- *A ony if B* -wherein A is the condition.</br> Also, since during my first take I was rarely in class, I was now introduced to converse(q→p), contrapositive(¬q→¬p) and inverse(¬p→¬q). One of the highlights of the meeeting includes when I remembered the rows needed in a truth table which is:
-</br>
+- *A ony if B* -wherein A is the condition.</br></br> Also, since during my first take I was rarely in class, I was now introduced to converse(q→p), contrapositive(¬q→¬p) and inverse(¬p→¬q). One of the highlights of the meeeting includes when I remembered the rows needed in a truth table which is:</br>
+</br></br>
 **# of Rows=2^n**
 </br>
-*where N is the number of variables present*
+*where N is the number of variables present*</br>
 ---------------------------------------------------------------------------------------------------------------------------
 </br>
 #Answer to Homework 1</br>
