@@ -1,5 +1,5 @@
 # dismathportfolio-ReiPunu
-Rei Carmina R. Punu 11123036
+-Rei Carmina R. Punu 11123036
 -------------------------------------------------------------------------------------------------------------------------------------
 ## WEEK 1 FIRST MEETING (JUNE 16, 2016)
 </br>
@@ -16,10 +16,10 @@ like a promise or a condition that must be fulfilled for it to be true.
   Let:</br> *p* be: You get a 100 on the final exam. </br>*q* be: I will give you a 4.0 on your final grade.
 </br>
   Putting the above statement into conditional logic, '**If** you get a 100 on the final exam **then** I will give you a 4.0 on your final grade.'</br>
-> If P is true then definitely Q is true. The condition is fulfilled therefore it's true.</br>
-> If P is false then Q might be true. Though the condition is not fulfilled there are factors which may lead you to 4.0 on your final grade.</br>
->If P is false then Q is false The condition is not fufilled and there's a possibilty that the rest of your grades do not agree with the 4.0 requirement.</br>
->If P is true then Q is false. The condition is fulfilled yet you didn't get a 4.0 on your final grade which is a breach in the condition made.<br>
+1. If P is true then definitely Q is true. The condition is fulfilled therefore it's true.</br>
+2. If P is false then Q might be true. Though the condition is not fulfilled there are factors which may lead you to 4.0 on your final grade.</br>
+3. If P is false then Q is false The condition is not fufilled and there's a possibilty that the rest of your grades do not agree with the 4.0 requirement.</br>
+4. If P is true then Q is false. The condition is fulfilled yet you didn't get a 4.0 on your final grade which is a breach in the condition made.<br>
 </br>
   Since, I am familiar with the previous logic statements such as:</br>
 - Conjuction/And (p^q),
@@ -36,10 +36,11 @@ like a promise or a condition that must be fulfilled for it to be true.
 **# of Rows=2^n**
 </br>
 *where N is the number of variables present*
+---------------------------------------------------------------------------------------------------------------------------
 </br>
 #Answer to Homework 1</br>
 
-31. f. (p→q) → (q→p)</br>
+*31. f. (p→q) → (q→p)</br>
 NO. of Rows=2^2=4</br>
 </br>
 
@@ -51,7 +52,7 @@ NO. of Rows=2^2=4</br>
 |      F       |        F       |       T       |       T       |        T      |
 
 </br>
-35. a. (p→¬q)</br>
+*35. a. (p→¬q)</br>
 NO. of Rows=2^2=4</br>
 </br>
 
@@ -63,7 +64,7 @@ NO. of Rows=2^2=4</br>
 |      F       |        F       |       T       |       T       |
 
 </br>
-35. a. ¬p→(q→r)</br>
+*35. a. ¬p→(q→r)</br>
 NO. of Rows=2^3=8</br>
 </br>
 
