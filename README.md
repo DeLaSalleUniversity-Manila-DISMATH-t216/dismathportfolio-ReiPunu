@@ -35,10 +35,10 @@ like a promise or a condition that must be fulfilled for it to be true.
 </br></br>
 **# of Rows=2^n**
 </br>
-*where N is the number of variables present*</br>
----------------------------------------------------------------------------------------------------------------------------
+*where N is the number of variables present*</br></br>
+-------------------------------------------------------------------------------------------------------------------------------------
 </br>
-#Answer to Homework 1</br>
+Answer to Homework 1</br>
 
 *31. f. (p→q) → (q→p)</br>
 NO. of Rows=2^2=4</br>
