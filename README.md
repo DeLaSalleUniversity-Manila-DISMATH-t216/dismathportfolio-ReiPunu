@@ -1,19 +1,21 @@
 # dismathportfolio-ReiPunu
+Rei Carmina R. Punu 11123036
 -------------------------------------------------------------------------------------------------------------------------------------
 ## WEEK 1 FIRST MEETING (JUNE 16, 2016)
+</br>
 Regarding last week's meeting, the first meeting was short and informative since we are all on our second take of the course. The 
 few things we had a recap on the logic used in LOGICIR such as OR, AND, XOR and XNOR and many more. The first topic discussed was 
 the Propositions, since I am not good in logic, I found it hard to absorb the its nature. After some time, it dawned on me  that
 **Propositions** are  declarative sentences <i>whether true or false</i>. 
-
+</br>
 Finally, when our instructor asked me how does conditional logic work, I thought I remembered correctly. I told him that a con-
 ditional logic works when the if the first statement is **False** and the second statement is **True**. After hearing the answers
 of my coursemates, I got confused on whether my answer is correct. After our instructor explained that a conditional logic is
 like a promise or a condition that must be fulfilled for it to be true.
-
+</br>
   Let:</br> *p* be: You get a 100 on the final exam. </br>*q* be: I will give you a 4.0 on your final grade.
-
-  Putting the above statement into conditional logic, '**If** you get a 100 on the final exam **then** I will give you a 4.0 on your final grade.'
+</br>
+  Putting the above statement into conditional logic, '**If** you get a 100 on the final exam **then** I will give you a 4.0 on your final grade.'</br>
 > If P is true then definitely Q is true. The condition is fulfilled therefore it's true.</br>
 > If P is false then Q might be true. Though the condition is not fulfilled there are factors which may lead you to 4.0 on your final grade.</br>
 >If P is false then Q is false The condition is not fufilled and there's a possibilty that the rest of your grades do not agree with the 4.0 requirement.</br>
@@ -37,7 +39,7 @@ like a promise or a condition that must be fulfilled for it to be true.
 </br>
 #Answer to Homework 1</br>
 31. f. *(p→q) → (q→p)</br>
-# of Rows=2^2=4</br>
+NO. of Rows=2^2=4</br>
 </br>
 
 |      P       |        Q       |       P→Q     |     Q→P       | (P→Q) → (Q→P) |
@@ -49,7 +51,7 @@ like a promise or a condition that must be fulfilled for it to be true.
 
 </br>
 35. a. (p→¬q)</br>
-# of Rows=2^2=4</br>
+NO. of Rows=2^2=4</br>
 </br>
 
 |      P       |        Q       |       ¬Q      |     P→¬Q      | 
@@ -61,7 +63,7 @@ like a promise or a condition that must be fulfilled for it to be true.
 
 </br>
 35. a. ¬p→(q→r)</br>
-# of Rows=2^3=8</br>
+NO. of Rows=2^3=8</br>
 </br>
 
 |      P       |      ¬P        |       Q       |     R         |       Q→R     |  ¬P→(Q→R)   |
