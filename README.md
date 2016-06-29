@@ -1,4 +1,4 @@
-# dismathportfolio-ReiPunu
+# DISMATHportfolio-ReiPunu
 -Rei Carmina R. Punu 11123036
 -------------------------------------------------------------------------------------------------------------------------------------
 ## WEEK 1 FIRST MEETING (JUNE 16, 2016)
@@ -80,3 +80,132 @@ NO. of Rows=2^3=8</br>
 |      F       |        T       |       F       |       F       |       T       |     T       |
 
 </br>
+-------------------------------------------------------------------------------------------------------------------------------
+## WEEK 2 (JUNE 21 & 23, 2016)
+*TUESDAY MEETING*</br>
+-Compound propositions served as the appetizers for us senses. Compound propositions have three kinds namely:</br>
+	1. Tautology - always *true*</br>
+	2. Contradiction - always *false*</br>
+	3. Contingency - *neither* a tautology nor a contradiction</br>
+</br>
+**note** that when dealing with contradiction, one must use the logical operand *AND* and *OR* when dealing with tautology.</br>
+</br>
+-*Logical Equivalences* were also taught and proven through the use of truth table. Table is seen below:</br>
+
+
+|       EQUIVALENCE                                                  |                          Name                    | 
+|            :---:                                                   |                   :---:                          |    
+|   p ∧ T ≡ p   </br>p ∨ F ≡ p                                       |                        Identity Laws             |       
+| p ∨ T ≡ T   </br> p ∧ F ≡ F                                        |                           Domination Laws        |      
+|     p ∨ p ≡ p</br>  p ∧ p ≡ p                                      |                          Idempotent Laws         |        
+|    ¬(¬p) ≡ p                                                       |                      Double negation law         | 
+|  p ∨ q ≡ q ∨ p </br> p ∧ q ≡ q ∧ p                                 |                Commutative laws                  |    
+|(p ∨ q) ∨ r ≡ p ∨ (q ∨ r)</br> (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)            |        Associative laws                          |       
+|p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)</br>p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) |             Distributive laws                    |        
+|  ¬(p ∧ q) ≡ ¬p ∨¬q </br> ¬(p ∨ q) ≡ ¬p ∧¬q                         |         De Morgan’s laws                         |      
+| p ∨ (p ∧ q) ≡ p    </br>          p ∧ (p ∨ q) ≡ p                  |                  Absorption laws                 |
+|  p ∨¬p ≡ T   </br>  p ∧¬p ≡ F                                      |     Negation Laws                                | 
+</br>
+Another equivalence used is the **Implication Law**:</br>
+|       EQUIVALENCE                                                  |                          Name                    | 
+|            :---:                                                   |                   :---:                          |    
+|  p → q ≡ ¬p ∨ q                                                    |                    Implication Law               |
+</br>
+-We are then assigned to read about **nested quantifiers**</br>
+
+</br></br>
+*THURSDAY MEETING*</br>
+-*Quantifiers* exist when a preposition results with certain truth values. There are two types of quantifiers, *universal and existential* quantifiers. A *universal quantifier* denotes that **P(x) for all values of x in the domain** wherein **∀xP(x)** is symbol. When P(x) is false, the statement is called a *counterexample* of ∀xP(x). The second quantifier, *existential quantifier* indicates that **There exists an elemeneet x in the domain such that P(x)** </br>
+
+-When negating quamtified expressions, the *De Morgan's laws* for quantifiers is used. </br>
+|       Negation |    Equivalent     |     NEGATION IS TRUE                   |    NEGATION IS FALSE                             | 
+|      :---:     |      :---:        |     :---:                              |                   :---:                          |    
+|   ¬∃xP(x)      |  ∀x¬P(x)          | For every x, P(x) is false.            |        There is an x for which P(x) is true.     |
+|   ¬∀xP(x)      | ∃x¬P(x)           |  There is an x for which P(x) is true  |             P(x) is true for every x.            |
+</br>
+
+-*Rules of inference* were introduced to validate whether arguments were correct with the absence of truth tables.</br>
+</br>
+|Rule of Inference           |Tautology                     |Name                  |
+|:---:                       |:---:                         |:---:                 |
+|p</br>p → q</br>∴ q         | (p ∧ (p → q)) → q            |Modus ponens          |
+|¬q</br>p → q</br>∴ ¬p       |(¬q ∧ (p → q))→¬p             |Modus tollens         |
+|p → q</br>q → r</br>∴ p → r |((p → q) ∧ (q → r)) → (p → r) |Hypothetical syllogism|
+|p ∨ q</br>¬p</br>∴ q        |((p ∨ q)∧¬p) → q              |Disjunctive syllogism |
+|p</br>∴ p ∨ q               |p → (p ∨ q)                   |Addition              |
+|p ∧ q</br>∴ p               |(p ∧ q) → p                   |Simplification        |
+|p</br>q</br>∴ p ∧ q         |((p) ∧ (q)) → (p ∧ q)         |Conjunction           |
+|p ∨ q</br>¬p ∨ r</br>∴ q ∨ r|((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r)|Resolution            |
+</br></br>
+
+*ANSWER TO QUESTIONS*</br>
+Truth Table of Absorption:</br>
+p ∨ (p ∧ q) ≡ p <br>
+*ANSWER:*</br>
+|P    |Q    |P^Q  |Pv(P^Q)|
+|:---:|:---:|:---:|:---:  |
+|T    |T    |T    |      T|
+|T    |F    |F    |T      |
+|F    |T    |F    |F      |
+|F    |F    |F    |F      |
+
+</br>
+
+Example for Dinjunctive Syllogism </br>
+*ANSWER:* Meer is cute or cuddly. Meer is not cute. Therefore, Meer is cuddly.</br>
+*EXERCISES FOR 1.3*</br>
+
+15. Determine whether (¬q ∧ (p → q))→¬p is a tautology.</br>
+
+  | p     | q     | ¬p    | p → q | (¬p ∧ (p → q))| (¬p ∧ (p → q)) → ¬p |
+  | :---: | :---: | :---: | :---: | :---:         | :---:               |
+  | T     | T     | F     | T     | F             | T                   |
+  | T     | F     | F     | F     | F             | T                   |
+  | F     | T     | T     | T     | T             | T                   |
+  | F     | F     | T     | T     | T             | T                   |
+  
+17. Show that ¬(p ↔ q) and p ↔¬q are logically equivalent.
+
+  | p     | q     | p ↔ q |¬(p ↔q)| ¬q    | p ↔ ¬q |
+  | :---: | :---: | :---: | :---: | :---: | :---:  |
+  | T     | T     | T     | F     | F     | F      |
+  | T     | F     | F     | T     | T     | T      |
+  | F     | T     | F     | T     | F     | T      |
+  | F     | F     | T     | F     | T     | F      |
+  </br>
+  *Special Exercise:*</br>
+
+  | (p ∧ (p → q)) → q          | Logical Equivalence              |
+  | :---:                      | :---:                            |
+  | p ∧ (¬p V q)) → q          | Implication Equivalence          |
+  | (p ∧ ¬p) V (p ∧ q) → q     | Distribution Law                 |
+  | F V (p ∧ q) → q            | Negation Law                     |
+  | (F V p) ∧ (F V q) → q      | Distribution Law                 |
+  | (p ∧ q) → q                | Identity Law                     |
+  | ¬(p ∧ q) V q               | Implication Equivalence          |
+  | ¬p V (¬q V q)              | De Morgan's</br>Associative Law  |
+  | ¬p V T ≡ T                 | Domination Law                   |
+</br>
+*EXERCISES FOR 1.4*</br>
+5. Let P(x) be the statement “x spends more than five hours every weekday in class,” where the domain for x consists of all students. Express each of these quantifications in English.</br>
+c) ∃x ¬P(x)</br>
+*ANSWER:* There exist a student in class who doesn't spend 5 hours in class.</br>
+9. Let P(x) be the statement “x can speak Russian” and let Q(x) be the statement “x knows the computer language C++.” Express each of these sentences in terms of P(x), Q(x), quantifiers, and logical connectives. The domain for quantifiers consists of all students at your school.</br>
+b)There is a student at your school who can speak Russian but who doesn’t know C++.</br.
+*ANSWER:* ∃x(P(x) ∧ ¬Q(x))</br>
+11. Let P(x) be the statement “x = x2.” If the domain consists of the integers, what are these truth values?</br>
+e. ∃xP(x)</br>
+*ANSWER:*TRUE</br>
+15. Determine the truth value of each of these statements if the domain for all variables consists of all integers.</br>
+e. ∃n(n*n = 2) </br>
+*ANSWER:*FALSE</br>
+17. Suppose that the domain of the propositional function P(x) consists of the integers 0, 1, 2, 3, and 4. Write out each of these propositions using disjunctions, conjunctions, and negations.</br>
+e. ¬∃xP(x) </br>
+*ANSWER:*¬(P (0) ∨ P(1) ∨ P(2) ∨ P(3) ∨ P(4)) f) ¬(P (0) ∧ P(1) ∧ P(2) ∧ P(3) ∧ P(4))</br>
+Disjunction & Negation</br>
+
+*EXERCISES FOR 1.5*</br>
+3. Let Q(x, y) be the statement “x has sent an e-mail message to y,” where the domain for both x and y consists of all students in your class. Express each of these quantifications in English.
+b. b) ∃x∀yQ(x, y)
+*ANSWER:* There exist a student who sent a message to the whole class.</br>
+
